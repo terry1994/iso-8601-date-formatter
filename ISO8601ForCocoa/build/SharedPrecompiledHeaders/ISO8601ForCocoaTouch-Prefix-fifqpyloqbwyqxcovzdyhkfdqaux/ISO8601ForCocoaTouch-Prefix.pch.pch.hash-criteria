@@ -1,0 +1,22 @@
+-x
+objective-c
+-arch
+armv7
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DISO8601_TESTING_PURPOSES_ONLY=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk
+-miphoneos-version-min=5.0
+-g
+-fembed-bitcode-marker
+-iquote
+-iquote
+-I/Users/terrylewis/Documents/Development/Xcode/Arr/Submodules/iso-8601-date-formatter/ISO8601ForCocoa/build/Debug-iphoneos/include
+-F/Users/terrylewis/Documents/Development/Xcode/Arr/Submodules/iso-8601-date-formatter/ISO8601ForCocoa/build/Debug-iphoneos
+arm-apple-darwin16.7.0
+"4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)"
+SDK_PRODUCT_BUILD_VERSION=14E8301
+14E8301
